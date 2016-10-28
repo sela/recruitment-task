@@ -1,6 +1,6 @@
 # Recruitment task
 
-The aim is to create a command line tool which reads data from a file, performs simple operation on this data and stores or prints a result. Input files could have different format (csv, yml, xml), but they have the same data structure. The result could be stored in a plain text file or printed on stdout. Please see the input files (located in `data` directory) to check the data structure.
+The aim is to create a command line tool which reads data from a file, performs simple operation on this data and stores or prints a result. Input files could have different format (csv, yml, xml), but they contain the same data. The result could be stored in a plain text file or printed on stdout. Please see the input files (located in `data` directory) to check the data structure.
 
 ## Requirements
 
@@ -10,17 +10,17 @@ The aim is to create a command line tool which reads data from a file, performs 
 - Build a tool.
 - Add some tests (unit/integration/functional in TDD/BDD style - it's up to you).
 - Add very basic documentation in README.md (how to run the tool). You can replace this readme file.
-- Push your code in github.
+- Push your code into your github account. Make it available for review.
 
 ## Logic
 
-We should be able to run a tool from a command line and pass one or two parameters.
+We should be able to run the tool from a command line and pass an input parameter and optional output parameter.
 
 - Input parameter is a path to a file that should be processed.
-- Output parameter is optional and is a path to a file that should be created.
+- Output parameter is optional and it is a path to the output file.
 - If the output parameter is not provided the result should be printed to `stdout`.
 
-The tool should parse a file from the input parameter and store/print the result. The result is a simple sum of `value` property for every _active_ entity.
+The tool should parse the input file and output the result. The result is a simple sum of `value` property for every _active_ entity.
 
 We should be able to run the tool somehow like:
 
