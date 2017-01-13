@@ -7,6 +7,7 @@ The aim is to create a command line tool which reads data from a file, performs 
 - Fork this repository.
 - Bootstrap a project with Composer.
 - Use PSR-4 for autoloading.
+- Follow PSR-2 coding standard.
 - Build the tool.
 - Add some tests (any one of the following: unit/integration/functional in TDD/BDD style - it's up to you).
 - Add very basic documentation in README.md (how to run the tool). You can replace this readme file.
